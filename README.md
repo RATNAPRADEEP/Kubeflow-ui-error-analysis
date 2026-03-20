@@ -26,7 +26,7 @@ This demo shows automatic classification of Kubernetes pod failures (e.g., OOMKi
 npm install
 npm start
 ```⁠
----
+
 
 ## 🚀 Overview
 This project improves the *Kubeflow Pipelines UI* by introducing a structured and visual classification of Kubernetes pod lifecycle failures.
