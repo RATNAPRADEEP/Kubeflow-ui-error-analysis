@@ -7,6 +7,21 @@ This project improves the **Kubeflow Pipelines UI** by introducing a structured 
 It helps users quickly understand **why pipeline runs fail** without manually inspecting logs.
 
 ---
+## 🔥 Demo
+
+A working prototype is implemented to classify Kubernetes pod failures.
+
+### Example:
+
+Input(example logs):
+Container terminated with exit code 137 
+Reason: OOMKilled
+
+Output:
+- Type: ResourceLimitError  
+- Root Cause: Container killed due to low memory  
+- Suggested Fix: Increase memory limits in Kubernetes pod spec
+---
 
 ## 🎯 Problem Statement
 
